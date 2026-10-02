@@ -1,0 +1,31 @@
+[project]
+name = "KwanzaMeter"
+version = "beta"
+description = "App que ajuda a gerenciar o seu dinheiro com maior efiencia e com sugestões da IA intergrada"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+    "flet-charts",
+    "flet-android-notifications",
+    "requests",
+    "python-dotenv",
+    "reportlab",
+]
+
+[tool.flet]
+product = "KwanzaMeter"
+org = "com.lasttime"
+company = "KwanzaMeter"
+build_number = 1
+build_version = "1.0.0"
+
+[tool.flet.app]
+path = "."
+module = "main.py"
+
+[tool.flet.android]
+min_sdk_version = 24
+target_sdk_version = 35
+
+[tool.flet.android.permission]
+"android.permission.POST_NOTIFICATIONS" = true

@@ -1,0 +1,13 @@
+class Colors:
+    PRINCIPAL = '#4CAF7A'
+    PRINCIPAL_BLACK = '#2F7D5B'
+    SECUDARIA = '#7BCB9A'
+    BACKGROUND = '#F4FAF6'
+    CARDS = '#FFFFFF'
+    TEXT_PRINCIPAL = "#11241B"
+    TEXT_SECUNDARIA = "#728279"
+    IA = '#E8F4EC'
+    GREEN = "#23C06C"
+    RED = "#F14B4B"
+    WARNING = "#E6A23D"
+    INFO = "#3C8BD6"
